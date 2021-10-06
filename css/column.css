@@ -3,7 +3,7 @@
 }
 
 .container {
-  width: 1180px;
+  width: 1260px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -13,6 +13,7 @@
   display: flex;
   /* flex-flow: row wrap; */
 }
+
 .center {
   text-align: center;
 }
@@ -24,12 +25,15 @@
 .between {
   justify-content: space-between;
 }
+
 .around {
   justify-content: space-around;
 }
+
 .evenly {
   justify-content: space-evenly;
 }
+
 .align-center {
   align-items: center;
 }
@@ -49,22 +53,22 @@ li {
 
 
 .col-1 {
-  max-width:8.333333%; 
+  max-width: 8.333333%;
   flex-basis: 8.333333%;
 }
 
 .col-2 {
-  max-width:16.6666666%;
+  max-width: 16.6666666%;
   flex-basis: 16.6666666%;
 }
 
 .col-3 {
-  max-width:25%;
+  max-width: 25%;
   flex-basis: 25%;
 }
 
 .col-4 {
-  max-width:33.333333%;
+  max-width: 33.333333%;
   flex-basis: 33.333333%;
 }
 
@@ -102,6 +106,7 @@ li {
   max-width: 91.6666666%;
   flex-basis: 91.6666666%;
 }
+
 .col-12 {
   max-width: 100%;
   flex-basis: 100%;

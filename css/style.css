@@ -36,25 +36,25 @@ body {
 
 
 
-.logo-dark{
+.logo-dark {
   display: none;
 }
 
-.light-content  {
+.light-content {
   background-color: var(--color-light);
   color: var(--color-dark);
   transition: all 1s ease;
 }
 
-body.light-content .logo-dark{
+body.light-content .logo-dark {
   display: block;
 }
 
-body.light-content .mail-input{
-background-color: var(--bgc-light);
+body.light-content .mail-input {
+  background-color: var(--bgc-light);
 }
 
-body.light-content .logo-white{
+body.light-content .logo-white {
   display: none;
 }
 
@@ -84,6 +84,12 @@ body.light-content .logo-white{
   color: #fff;
 }
 
+.self img {
+  width: 240px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
 img {
   max-width: 100%;
@@ -127,7 +133,7 @@ img {
 
 
 .header-btn-up {
-  padding: 6px 8px;
+  padding: 11px 14px;
   border-radius: 8px;
   font-weight: 500;
   font-style: normal;
@@ -139,6 +145,10 @@ img {
 .header-btn-up:hover {
   background-color: var(--btn-hover);
   transition: all 0.5s ease;
+}
+
+.icons-social {
+  font-size: 30px;
 }
 
 .wrapper {
@@ -197,11 +207,14 @@ img {
 
 .ddm {
   border: 2px #35394b dotted;
-  padding: 52px 50px;
+  padding: 62px 65px;
   border-radius: 50%;
+  position: relative;
+  top: 0;
+  left: -170px;
 }
 
-.circle{
+.circle {
   width: 400px;
   height: 400px;
   position: absolute;
@@ -211,7 +224,7 @@ img {
   animation: galaktika 5s linear infinite;
 }
 
-.circle-inner{
+.circle-inner {
   width: 504px;
   height: 512px;
   position: absolute;
@@ -222,7 +235,7 @@ img {
   transform: rotate(45deg);
 }
 
-.circle-two{
+.circle-two {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -246,7 +259,7 @@ img {
 
 .ball-fiolet {
   position: absolute;
-  left:-15px;
+  left: -15px;
   top: 0;
   bottom: 0;
   margin: auto;
@@ -269,7 +282,7 @@ img {
   height: 30px;
   background-color: #2E334D;
   border-radius: 50%;
-  box-shadow: 0 0 10px 5px #2E334D;   
+  box-shadow: 0 0 10px 5px #2E334D;
   transform: rotateZ(30deg);
 }
 
@@ -303,10 +316,11 @@ img {
 }
 
 @keyframes galaktika {
-  0%{
+  0% {
     transform: rotate(0);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -325,11 +339,11 @@ img {
 
 .self-btn {
   display: inline-block;
-  padding: 5px 7px;
+  padding: 8px 12px;
   border-radius: 12px;
   font-weight: 400;
   font-style: normal;
-  font-size: 12;
+  font-size: 16px;
   background-color: var(--btn);
   color: var(--color-light);
   transition: all 0.5s ease;
@@ -364,11 +378,11 @@ img {
 
 .pink-btn {
   display: inline-block;
-  padding: 5px 7px;
+  padding: 8px 11px;
   border-radius: 12px;
   font-weight: 400;
   font-style: normal;
-  font-size: 12;
+  font-size: 12pxx;
   background-color: var(--pink-btn);
   color: var(--color-light);
   transition: all 0.5s ease;
@@ -401,7 +415,7 @@ img {
 }
 
 .subscribe {
-  padding: 5px 15px;
+  padding: 45px 15px;
   border-radius: 10px;
   background: rgb(0, 87, 255);
   background: linear-gradient(90deg, rgba(0, 87, 255, 1) 9%, rgba(1, 34, 147, 1) 84%);
@@ -480,6 +494,7 @@ img {
   transition: all 0.5s ease;
   border: none;
 }
+
 .fifty-btn-s {
   display: inline-block;
   padding: 10px 12px;
@@ -497,7 +512,7 @@ sup {
   font-size: 28px;
 }
 
-.fifty-btn:hover{
+.fifty-btn:hover {
   background-color: var(--btn-hover);
 }
 
@@ -506,7 +521,7 @@ sup {
 }
 
 .last-div {
- text-align: center;
+  text-align: center;
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -524,37 +539,37 @@ sup {
 }
 
 .last-btn:hover {
-  background-color:var(--btn-hover) ;
+  background-color: var(--btn-hover);
 }
 
 .food {
-  padding: 6px 8px;
+  padding: 8px 12px;
   border-radius: 8px;
   font-weight: 500;
   font-style: normal;
-  font-size: 14;
+  font-size: 16px;
   background-color: #A638CD;
   transition: all 0.5s ease;
 }
 
 
 
-.tech{
-  padding: 6px 8px;
+.tech {
+  padding: 8px 12px;
   border-radius: 8px;
   font-weight: 500;
   font-style: normal;
-  font-size: 14;
+  font-size: 16px;
   background-color: green;
   transition: all 0.5s ease;
 }
 
 .insp {
-  padding: 6px 8px;
+  padding: 8px 12px;
   border-radius: 8px;
   font-weight: 500;
   font-style: normal;
-  font-size: 14;
+  font-size: 16px;
   background-color: #916109;
   transition: all 0.5s ease;
 }
@@ -571,15 +586,15 @@ sup {
 }
 
 .large {
-  background: rgb(0,75,230);
-  background: linear-gradient(90deg, rgba(0,75,230,1) 48%, rgba(1,34,147,1) 84%);
+  background: rgb(0, 75, 230);
+  background: linear-gradient(90deg, rgba(0, 75, 230, 1) 48%, rgba(1, 34, 147, 1) 84%);
   margin: 25px 50px;
   padding: 24px;
   border-radius: 10px;
 }
 
 .letter {
-margin-left: 440px;  
+  margin-left: 440px;
 }
 
 .large-title {
@@ -602,17 +617,19 @@ margin-left: 440px;
 }
 
 
-footer{
+footer {
   padding: 40px 0;
 }
-footer span{
+
+footer span {
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 400;
   color: #ccc;
   font-size: .875rem;
 }
-.footer-logo{
+
+.footer-logo {
   display: block;
   width: 101px;
   height: 32px;
@@ -620,22 +637,26 @@ footer span{
   background-size: 100px 32px;
   background-repeat: no-repeat;
 }
-.footer-text{
+
+.footer-text {
   color: var(--text-color);
   line-height: 20px;
   margin: 0;
   margin-top: 15px;
   margin-bottom: 80px;
 }
-.footer-list{
+
+.footer-list {
   margin-bottom: 20px;
 }
-.footer-list a{
+
+.footer-list a {
   font-weight: 500;
   color: var(--text-color);
   transition: all 0.4s ease;
 }
-.footer-list a:hover{
+
+.footer-list a:hover {
   color: #005be5;
 }
 
